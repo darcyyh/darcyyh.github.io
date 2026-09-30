@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+
+.faculty-glyphic-regular {
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+	font-family:"Faculty Glypic";
+	background-color:#4d7e96 ;
+	
+}
+
+
+h2 { 
+	text-align: center;
+	font-size: 75px;
+	color: #0f2530;
+ }
+
+ h3 {
+ 	text-align: center;
+	font-size: 35px;
+	color: #193645;
+ }
+
+ h4 { 
+	font-size: 20px;
+	text-align: center;
+	color: #193645;
+  }
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; 
+  height: auto;
+  border-radius: 10px;
+  border: 20px dotted #0f2530;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 10px;                            
+  width: 100%;                           
+  max-width: 800px;                     
+  margin: 0 auto;                        
+}
+
+.image-grid img {
+  width: 100%;                           
+  max-height:500px;
+  height: auto;                          
+  display: block;                        
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    color: #0f2530; 
+    text-decoration: none; 
+}
+
+.image-row {
+  display: flex;            /* Turns the container into a flexbox */
+  justify-content: center;   /* Centers the images horizontally */
+  align-items: center;       /* Centers the images vertically (optional) */
+  gap: 15px;                 /* Adds equal space between the images */
+}
+
+.image-row img {
+  width: 30%;                /* Forces images to share the row space */
+  max-width: 400px;          /* Prevents them from getting too large */
+  height: auto;              /* Maintains the original aspect ratio */
+}
+
